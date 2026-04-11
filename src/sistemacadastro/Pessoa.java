@@ -12,9 +12,9 @@ public class Pessoa {
 
     // funções abaixo
     public void exibirDados(){
-        System.out.println("Adicione o seu" + nome +
-                "Coloque sua idade" + idade +
-                "Insire seu CPF" + cpf);
+        System.out.println("Nome: " + nome +
+                " Idade: " + idade +
+                " CPF: " + cpf);
     }
     
     
@@ -30,7 +30,7 @@ public class Pessoa {
     }
     
     
-    // getd e sets 
+    // gets e sets 
     
     public String getNome(){
         return nome;
