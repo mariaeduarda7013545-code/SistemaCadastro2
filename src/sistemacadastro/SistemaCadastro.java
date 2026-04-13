@@ -11,12 +11,6 @@ public class SistemaCadastro {
 
         ArrayList<Pessoa> listaCadastrados = new ArrayList<>();
 
-        Pessoa p = new Pessoa();
-        p.setNome("judite");
-        p.setCpf("234567890");
-        p.setIdade(10);
-        listaCadastrados.add(p);
-
         //FUNÇÃO CADASTRAR
         cadastrar(listaCadastrados);
 
