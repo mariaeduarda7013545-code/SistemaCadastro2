@@ -7,10 +7,17 @@ public class Pessoa {
     private String cpf;
 
     // funções abaixo
+<<<<<<< HEAD
     public void exibirDados() {
         System.out.println("Adicione o seu" + nome);
         System.out.println("Coloque sua idade" + idade);        
         System.out.println("Insire seu CPF" + cpf);        
+=======
+    public void exibirDados(){
+        System.out.println("Nome: " + nome +
+                " Idade: " + idade +
+                " CPF: " + cpf);
+>>>>>>> bfd9fb2c211c130230b356f9b0805117372b5d45
     }
 
     //contrutores 
@@ -22,9 +29,17 @@ public class Pessoa {
 
     public Pessoa() {
     }
+<<<<<<< HEAD
 
     // getd e sets 
     public String getNome() {
+=======
+    
+    
+    // gets e sets 
+    
+    public String getNome(){
+>>>>>>> bfd9fb2c211c130230b356f9b0805117372b5d45
         return nome;
     }
 
