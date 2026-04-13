@@ -15,9 +15,13 @@ public class SistemaCadastro {
         cadastrar(listaCadastrados);
 
         //EXIBIR LISTA DE CADASTRO
+        
+        System.out.println("|======================|");
+        System.out.println("|  cadastrados :       |");
+        System.out.println("|======================|");
+        
         for (int i = 0; i < listaCadastrados.size(); i++) {
 
-            System.out.println("cadastrados:\n ");
             listaCadastrados.get(i).exibirDados();
 
         }
