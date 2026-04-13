@@ -8,9 +8,9 @@ public class Pessoa {
 
     // funções abaixo
     public void exibirDados() {
-        System.out.println("Adicione o seu nome: " + nome);
-        System.out.println("Coloque sua idade: " + idade);        
-        System.out.println("Insire seu CPF: " + cpf);        
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade);        
+        System.out.println("CPF: " + cpf);        
 
     }
 
